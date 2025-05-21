@@ -1,0 +1,409 @@
+{
+  "formulations": [
+    {
+      "id": "form_001",
+      "api": "ibuprofen",
+      "polymer": "PVP K30",
+      "drug_loading": 0.2,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 170.0,
+        "screw_speed": 100.0,
+        "residence_time": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 97.3,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.0,
+        "crystallinity_6months": 0.08,
+        "dissolution_rate": 0.85,
+        "stability_score": 0.92
+      }
+    },
+    {
+      "id": "form_002",
+      "api": "ibuprofen",
+      "polymer": "PVP K30",
+      "drug_loading": 0.3,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 170.0,
+        "screw_speed": 100.0,
+        "residence_time": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 86.5,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.12,
+        "crystallinity_6months": 0.25,
+        "dissolution_rate": 0.92,
+        "stability_score": 0.78
+      }
+    },
+    {
+      "id": "form_003",
+      "api": "ibuprofen",
+      "polymer": "PVP K30",
+      "drug_loading": 0.4,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 170.0,
+        "screw_speed": 100.0,
+        "residence_time": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 73.8,
+        "crystallinity_initial": 0.05,
+        "crystallinity_3months": 0.27,
+        "crystallinity_6months": 0.46,
+        "dissolution_rate": 0.95,
+        "stability_score": 0.62
+      }
+    },
+    {
+      "id": "form_004",
+      "api": "ibuprofen",
+      "polymer": "HPMC",
+      "drug_loading": 0.3,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 180.0,
+        "screw_speed": 100.0,
+        "residence_time": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 98.7,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.05,
+        "crystallinity_6months": 0.15,
+        "dissolution_rate": 0.88,
+        "stability_score": 0.84
+      }
+    },
+    {
+      "id": "form_005",
+      "api": "ibuprofen",
+      "polymer": "Soluplus",
+      "drug_loading": 0.3,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 150.0,
+        "screw_speed": 100.0,
+        "residence_time": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 58.4,
+        "crystallinity_initial": 0.03,
+        "crystallinity_3months": 0.18,
+        "crystallinity_6months": 0.32,
+        "dissolution_rate": 0.94,
+        "stability_score": 0.70
+      }
+    },
+    {
+      "id": "form_006",
+      "api": "ibuprofen",
+      "polymer": "PVP K30",
+      "drug_loading": 0.3,
+      "process_method": "spray_drying",
+      "process_parameters": {
+        "inlet_temperature": 120.0,
+        "outlet_temperature": 60.0,
+        "feed_rate": 10.0,
+        "atomization_pressure": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 87.2,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.10,
+        "crystallinity_6months": 0.22,
+        "dissolution_rate": 0.95,
+        "stability_score": 0.80
+      }
+    },
+    {
+      "id": "form_007",
+      "api": "indomethacin",
+      "polymer": "PVP K30",
+      "drug_loading": 0.3,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 165.0,
+        "screw_speed": 100.0,
+        "residence_time": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 107.6,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.0,
+        "crystallinity_6months": 0.11,
+        "dissolution_rate": 0.82,
+        "stability_score": 0.90
+      }
+    },
+    {
+      "id": "form_008",
+      "api": "indomethacin",
+      "polymer": "PVP K30",
+      "drug_loading": 0.5,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 165.0,
+        "screw_speed": 100.0,
+        "residence_time": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 89.4,
+        "crystallinity_initial": 0.02,
+        "crystallinity_3months": 0.14,
+        "crystallinity_6months": 0.28,
+        "dissolution_rate": 0.88,
+        "stability_score": 0.75
+      }
+    },
+    {
+      "id": "form_009",
+      "api": "indomethacin",
+      "polymer": "HPMCAS-HG",
+      "drug_loading": 0.3,
+      "process_method": "spray_drying",
+      "process_parameters": {
+        "inlet_temperature": 110.0,
+        "outlet_temperature": 55.0,
+        "feed_rate": 8.0,
+        "atomization_pressure": 2.5
+      },
+      "experimental_results": {
+        "glass_transition_temp": 93.2,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.03,
+        "crystallinity_6months": 0.07,
+        "dissolution_rate": 0.90,
+        "stability_score": 0.92
+      }
+    },
+    {
+      "id": "form_010",
+      "api": "felodipine",
+      "polymer": "HPMCAS-MG",
+      "drug_loading": 0.2,
+      "process_method": "spray_drying",
+      "process_parameters": {
+        "inlet_temperature": 100.0,
+        "outlet_temperature": 50.0,
+        "feed_rate": 7.0,
+        "atomization_pressure": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 95.8,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.0,
+        "crystallinity_6months": 0.04,
+        "dissolution_rate": 0.85,
+        "stability_score": 0.94
+      }
+    },
+    {
+      "id": "form_011",
+      "api": "felodipine",
+      "polymer": "HPMCAS-MG",
+      "drug_loading": 0.4,
+      "process_method": "spray_drying",
+      "process_parameters": {
+        "inlet_temperature": 100.0,
+        "outlet_temperature": 50.0,
+        "feed_rate": 7.0,
+        "atomization_pressure": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 82.3,
+        "crystallinity_initial": 0.01,
+        "crystallinity_3months": 0.08,
+        "crystallinity_6months": 0.18,
+        "dissolution_rate": 0.92,
+        "stability_score": 0.84
+      }
+    },
+    {
+      "id": "form_012",
+      "api": "griseofulvin",
+      "polymer": "PVPVA 64",
+      "drug_loading": 0.2,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 195.0,
+        "screw_speed": 120.0,
+        "residence_time": 1.5
+      },
+      "experimental_results": {
+        "glass_transition_temp": 104.2,
+        "crystallinity_initial": 0.01,
+        "crystallinity_3months": 0.12,
+        "crystallinity_6months": 0.23,
+        "dissolution_rate": 0.80,
+        "stability_score": 0.78
+      }
+    },
+    {
+      "id": "form_013",
+      "api": "ketoconazole",
+      "polymer": "Soluplus",
+      "drug_loading": 0.3,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 140.0,
+        "screw_speed": 150.0,
+        "residence_time": 2.2
+      },
+      "experimental_results": {
+        "glass_transition_temp": 62.8,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.05,
+        "crystallinity_6months": 0.11,
+        "dissolution_rate": 0.87,
+        "stability_score": 0.88
+      }
+    },
+    {
+      "id": "form_014",
+      "api": "carbamazepine",
+      "polymer": "PVP K30",
+      "drug_loading": 0.15,
+      "process_method": "solvent_evaporation",
+      "process_parameters": {
+        "solvent": "dichloromethane",
+        "evaporation_temperature": 40.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 112.5,
+        "crystallinity_initial": 0.03,
+        "crystallinity_3months": 0.18,
+        "crystallinity_6months": 0.42,
+        "dissolution_rate": 0.75,
+        "stability_score": 0.65
+      }
+    },
+    {
+      "id": "form_015",
+      "api": "carbamazepine",
+      "polymer": "HPMCAS-HG",
+      "drug_loading": 0.15,
+      "process_method": "spray_drying",
+      "process_parameters": {
+        "inlet_temperature": 120.0,
+        "outlet_temperature": 65.0,
+        "feed_rate": 10.0,
+        "atomization_pressure": 3.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 110.3,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.10,
+        "crystallinity_6months": 0.23,
+        "dissolution_rate": 0.83,
+        "stability_score": 0.78
+      }
+    },
+    {
+      "id": "form_016",
+      "api": "naproxen",
+      "polymer": "Eudragit L100",
+      "drug_loading": 0.25,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 160.0,
+        "screw_speed": 100.0,
+        "residence_time": 2.5
+      },
+      "experimental_results": {
+        "glass_transition_temp": 118.2,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.08,
+        "crystallinity_6months": 0.15,
+        "dissolution_rate": 0.82,
+        "stability_score": 0.85
+      }
+    },
+    {
+      "id": "form_017",
+      "api": "celecoxib",
+      "polymer": "PVP K90",
+      "drug_loading": 0.3,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 170.0,
+        "screw_speed": 120.0,
+        "residence_time": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 132.8,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.0,
+        "crystallinity_6months": 0.05,
+        "dissolution_rate": 0.88,
+        "stability_score": 0.93
+      }
+    },
+    {
+      "id": "form_018",
+      "api": "celecoxib",
+      "polymer": "HPMCAS-HG",
+      "drug_loading": 0.3,
+      "process_method": "spray_drying",
+      "process_parameters": {
+        "inlet_temperature": 110.0,
+        "outlet_temperature": 55.0,
+        "feed_rate": 8.0,
+        "atomization_pressure": 2.0
+      },
+      "experimental_results": {
+        "glass_transition_temp": 98.5,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.02,
+        "crystallinity_6months": 0.07,
+        "dissolution_rate": 0.85,
+        "stability_score": 0.90
+      }
+    },
+    {
+      "id": "form_019",
+      "api": "ritonavir",
+      "polymer": "PVPVA 64",
+      "drug_loading": 0.4,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 130.0,
+        "screw_speed": 150.0,
+        "residence_time": 1.8
+      },
+      "experimental_results": {
+        "glass_transition_temp": 84.2,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.04,
+        "crystallinity_6months": 0.10,
+        "dissolution_rate": 0.83,
+        "stability_score": 0.87
+      }
+    },
+    {
+      "id": "form_020",
+      "api": "ritonavir",
+      "polymer": "Soluplus",
+      "drug_loading": 0.4,
+      "process_method": "hot_melt_extrusion",
+      "process_parameters": {
+        "temperature": 130.0,
+        "screw_speed": 150.0,
+        "residence_time": 1.8
+      },
+      "experimental_results": {
+        "glass_transition_temp": 61.8,
+        "crystallinity_initial": 0.0,
+        "crystallinity_3months": 0.08,
+        "crystallinity_6months": 0.15,
+        "dissolution_rate": 0.85,
+        "stability_score": 0.82
+      }
+    }
+  ]
+}

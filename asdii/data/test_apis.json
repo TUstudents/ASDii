@@ -1,0 +1,162 @@
+{
+  "ibuprofen": {
+    "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+    "molecular_weight": 206.29,
+    "melting_point": 76.0,
+    "glass_transition_temp": -45.0,
+    "log_p": 3.97,
+    "pka": 4.4,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 18.2,
+      "polar": 3.8,
+      "hydrogen": 8.0,
+      "total": 20.0
+    },
+    "crystallization_tendency": 0.7
+  },
+  "indomethacin": {
+    "smiles": "COC1=C(C=C2C(=C1)C(=O)OC2C3=CC=C(C=C3)Cl)CC(=O)O",
+    "molecular_weight": 357.79,
+    "melting_point": 162.0,
+    "glass_transition_temp": 42.0,
+    "log_p": 4.27,
+    "pka": 4.5,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 19.5,
+      "polar": 5.3,
+      "hydrogen": 9.8,
+      "total": 22.3
+    },
+    "crystallization_tendency": 0.6
+  },
+  "ketoconazole": {
+    "smiles": "CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl",
+    "molecular_weight": 531.43,
+    "melting_point": 146.0,
+    "glass_transition_temp": 45.0,
+    "log_p": 4.20,
+    "pka": 6.5,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 18.8,
+      "polar": 7.2,
+      "hydrogen": 10.0,
+      "total": 22.6
+    },
+    "crystallization_tendency": 0.5
+  },
+  "felodipine": {
+    "smiles": "CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)C",
+    "molecular_weight": 384.26,
+    "melting_point": 145.0,
+    "glass_transition_temp": 43.0,
+    "log_p": 3.86,
+    "pka": 5.4,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 19.1,
+      "polar": 7.8,
+      "hydrogen": 9.5,
+      "total": 22.7
+    },
+    "crystallization_tendency": 0.4
+  },
+  "griseofulvin": {
+    "smiles": "COC1=CC(=CC(=C1OC)OC)C2C(=O)CC3(C(=O)C=COC3=C2Cl)C",
+    "molecular_weight": 352.77,
+    "melting_point": 220.0,
+    "glass_transition_temp": 89.0,
+    "log_p": 2.18,
+    "pka": 0.0,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 18.5,
+      "polar": 5.5,
+      "hydrogen": 7.8,
+      "total": 20.8
+    },
+    "crystallization_tendency": 0.75
+  },
+  "nifedipine": {
+    "smiles": "CC1=C(C(=C(N1)C)C(=O)OC)C(=O)OC",
+    "molecular_weight": 346.33,
+    "melting_point": 173.0,
+    "glass_transition_temp": 46.0,
+    "log_p": 3.17,
+    "pka": 5.3,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 19.2,
+      "polar": 7.5,
+      "hydrogen": 9.0,
+      "total": 22.5
+    },
+    "crystallization_tendency": 0.6
+  },
+  "carbamazepine": {
+    "smiles": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+    "molecular_weight": 236.27,
+    "melting_point": 191.0,
+    "glass_transition_temp": 59.0,
+    "log_p": 2.45,
+    "pka": 13.9,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 20.2,
+      "polar": 7.0,
+      "hydrogen": 8.5,
+      "total": 22.9
+    },
+    "crystallization_tendency": 0.85
+  },
+  "celecoxib": {
+    "smiles": "CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F",
+    "molecular_weight": 381.37,
+    "melting_point": 162.0,
+    "glass_transition_temp": 58.0,
+    "log_p": 3.90,
+    "pka": 11.1,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 19.8,
+      "polar": 6.5,
+      "hydrogen": 7.0,
+      "total": 22.0
+    },
+    "crystallization_tendency": 0.55
+  },
+  "naproxen": {
+    "smiles": "CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O",
+    "molecular_weight": 230.26,
+    "melting_point": 153.0,
+    "glass_transition_temp": 6.0,
+    "log_p": 3.29,
+    "pka": 4.2,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 19.1,
+      "polar": 4.8,
+      "hydrogen": 8.7,
+      "total": 21.7
+    },
+    "crystallization_tendency": 0.7
+  },
+  "ritonavir": {
+    "smiles": "CC(C)C1=NC(=CS1)CN(C)C(=O)NC(C(C)C)C(=O)NC(CC2=CC=CC=C2)CC(C(CC3=CC=CC=C3)NC(=O)OCC4=CN=CS4)O",
+    "molecular_weight": 720.94,
+    "melting_point": 122.0,
+    "glass_transition_temp": 50.0,
+    "log_p": 5.98,
+    "pka": 2.8,
+    "bcs_class": "II",
+    "solubility_parameters": {
+      "dispersive": 18.5,
+      "polar": 7.2,
+      "hydrogen": 11.5,
+      "total": 22.8
+    },
+    "crystallization_tendency": 0.45
+  }
+}

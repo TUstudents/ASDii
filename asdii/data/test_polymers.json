@@ -1,0 +1,188 @@
+{
+  "PVP K30": {
+    "type": "vinyl",
+    "monomer_smiles": "C1CCNC(=O)C1",
+    "molecular_weight": 50000,
+    "glass_transition_temp": 149.0,
+    "solubility_parameters": {
+      "dispersive": 17.0,
+      "polar": 8.0,
+      "hydrogen": 12.0,
+      "total": 22.2
+    },
+    "hydrophilicity": 0.85,
+    "hygroscopicity": 0.80,
+    "functional_groups": {
+      "carbonyl": 1,
+      "amide": 1,
+      "amine": 0
+    }
+  },
+  "PVP K90": {
+    "type": "vinyl",
+    "monomer_smiles": "C1CCNC(=O)C1",
+    "molecular_weight": 360000,
+    "glass_transition_temp": 178.0,
+    "solubility_parameters": {
+      "dispersive": 17.0,
+      "polar": 8.0,
+      "hydrogen": 12.0,
+      "total": 22.2
+    },
+    "hydrophilicity": 0.88,
+    "hygroscopicity": 0.83,
+    "functional_groups": {
+      "carbonyl": 1,
+      "amide": 1,
+      "amine": 0
+    }
+  },
+  "HPMC": {
+    "type": "cellulosic",
+    "molecular_weight": 22000,
+    "glass_transition_temp": 175.0,
+    "solubility_parameters": {
+      "dispersive": 18.0,
+      "polar": 8.6,
+      "hydrogen": 11.9,
+      "total": 23.3
+    },
+    "hydrophilicity": 0.70,
+    "hygroscopicity": 0.65,
+    "functional_groups": {
+      "ether": 3,
+      "hydroxyl": 1,
+      "methoxy": 2
+    }
+  },
+  "HPMCAS-HG": {
+    "type": "cellulosic",
+    "molecular_weight": 18000,
+    "glass_transition_temp": 120.0,
+    "solubility_parameters": {
+      "dispersive": 18.5,
+      "polar": 9.5,
+      "hydrogen": 10.0,
+      "total": 23.0
+    },
+    "hydrophilicity": 0.60,
+    "hygroscopicity": 0.50,
+    "functional_groups": {
+      "ether": 3,
+      "hydroxyl": 1,
+      "acetyl": 1,
+      "succinyl": 1,
+      "carboxyl": 1
+    }
+  },
+  "HPMCAS-MG": {
+    "type": "cellulosic",
+    "molecular_weight": 18500,
+    "glass_transition_temp": 115.0,
+    "solubility_parameters": {
+      "dispersive": 18.3,
+      "polar": 9.0,
+      "hydrogen": 9.5,
+      "total": 22.5
+    },
+    "hydrophilicity": 0.55,
+    "hygroscopicity": 0.45,
+    "functional_groups": {
+      "ether": 3,
+      "hydroxyl": 1,
+      "acetyl": 1,
+      "succinyl": 1,
+      "carboxyl": 1
+    }
+  },
+  "Soluplus": {
+    "type": "graft copolymer",
+    "molecular_weight": 90000,
+    "glass_transition_temp": 70.0,
+    "solubility_parameters": {
+      "dispersive": 17.5,
+      "polar": 7.0,
+      "hydrogen": 9.0,
+      "total": 20.9
+    },
+    "hydrophilicity": 0.55,
+    "hygroscopicity": 0.45,
+    "functional_groups": {
+      "carbonyl": 1,
+      "ether": 1,
+      "hydroxyl": 1,
+      "ester": 1
+    }
+  },
+  "Eudragit L100": {
+    "type": "acrylic",
+    "molecular_weight": 125000,
+    "glass_transition_temp": 150.0,
+    "solubility_parameters": {
+      "dispersive": 16.8,
+      "polar": 9.0,
+      "hydrogen": 8.0,
+      "total": 20.6
+    },
+    "hydrophilicity": 0.50,
+    "hygroscopicity": 0.40,
+    "functional_groups": {
+      "carboxyl": 1,
+      "ester": 1,
+      "hydroxyl": 0
+    }
+  },
+  "PVPVA 64": {
+    "type": "vinyl",
+    "molecular_weight": 45000,
+    "glass_transition_temp": 107.0,
+    "solubility_parameters": {
+      "dispersive": 16.5,
+      "polar": 7.5,
+      "hydrogen": 10.5,
+      "total": 21.0
+    },
+    "hydrophilicity": 0.65,
+    "hygroscopicity": 0.60,
+    "functional_groups": {
+      "carbonyl": 1,
+      "amide": 0.6,
+      "ester": 0.4
+    }
+  },
+  "PEG 6000": {
+    "type": "polyether",
+    "monomer_smiles": "C(CO)O",
+    "molecular_weight": 6000,
+    "glass_transition_temp": -20.0,
+    "solubility_parameters": {
+      "dispersive": 17.0,
+      "polar": 3.0,
+      "hydrogen": 9.0,
+      "total": 19.4
+    },
+    "hydrophilicity": 0.90,
+    "hygroscopicity": 0.85,
+    "functional_groups": {
+      "ether": 1,
+      "hydroxyl": 0.01
+    }
+  },
+  "PVA": {
+    "type": "vinyl",
+    "monomer_smiles": "C(CO)O",
+    "molecular_weight": 30000,
+    "glass_transition_temp": 85.0,
+    "solubility_parameters": {
+      "dispersive": 16.0,
+      "polar": 10.8,
+      "hydrogen": 17.6,
+      "total": 26.2
+    },
+    "hydrophilicity": 0.75,
+    "hygroscopicity": 0.70,
+    "functional_groups": {
+      "hydroxyl": 1
+    }
+  }
+}

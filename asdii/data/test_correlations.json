@@ -1,0 +1,215 @@
+{
+  "glass_transition_gordon_taylor": {
+    "description": "Gordon-Taylor parameters for glass transition temperature prediction",
+    "api_polymer_pairs": [
+      {
+        "api": "ibuprofen",
+        "polymer": "PVP K30",
+        "k_parameter": 0.42,
+        "experimental_data": [
+          {"drug_loading": 0.1, "tg": 108.5},
+          {"drug_loading": 0.2, "tg": 97.3},
+          {"drug_loading": 0.3, "tg": 86.5},
+          {"drug_loading": 0.4, "tg": 73.8},
+          {"drug_loading": 0.5, "tg": 58.4}
+        ]
+      },
+      {
+        "api": "indomethacin",
+        "polymer": "PVP K30",
+        "k_parameter": 0.31,
+        "experimental_data": [
+          {"drug_loading": 0.1, "tg": 125.7},
+          {"drug_loading": 0.2, "tg": 116.8},
+          {"drug_loading": 0.3, "tg": 107.6},
+          {"drug_loading": 0.4, "tg": 98.5},
+          {"drug_loading": 0.5, "tg": 89.4}
+        ]
+      },
+      {
+        "api": "felodipine",
+        "polymer": "HPMCAS-MG",
+        "k_parameter": 0.37,
+        "experimental_data": [
+          {"drug_loading": 0.1, "tg": 109.3},
+          {"drug_loading": 0.2, "tg": 95.8},
+          {"drug_loading": 0.3, "tg": 87.9},
+          {"drug_loading": 0.4, "tg": 82.3},
+          {"drug_loading": 0.5, "tg": 73.1}
+        ]
+      },
+      {
+        "api": "ketoconazole",
+        "polymer": "Soluplus",
+        "k_parameter": 0.52,
+        "experimental_data": [
+          {"drug_loading": 0.1, "tg": 67.5},
+          {"drug_loading": 0.2, "tg": 65.1},
+          {"drug_loading": 0.3, "tg": 62.8},
+          {"drug_loading": 0.4, "tg": 59.7},
+          {"drug_loading": 0.5, "tg": 56.9}
+        ]
+      }
+    ]
+  },
+  "miscibility_predictions": {
+    "description": "Miscibility scores from different prediction methods",
+    "api_polymer_pairs": [
+      {
+        "api": "ibuprofen",
+        "polymer": "PVP K30",
+        "flory_huggins": 0.78,
+        "hansen_distance": 0.82,
+        "experimental": 0.85
+      },
+      {
+        "api": "ibuprofen",
+        "polymer": "HPMC",
+        "flory_huggins": 0.72,
+        "hansen_distance": 0.76,
+        "experimental": 0.75
+      },
+      {
+        "api": "ibuprofen",
+        "polymer": "Soluplus",
+        "flory_huggins": 0.85,
+        "hansen_distance": 0.88,
+        "experimental": 0.90
+      },
+      {
+        "api": "indomethacin",
+        "polymer": "PVP K30",
+        "flory_huggins": 0.75,
+        "hansen_distance": 0.78,
+        "experimental": 0.80
+      },
+      {
+        "api": "indomethacin",
+        "polymer": "HPMCAS-HG",
+        "flory_huggins": 0.89,
+        "hansen_distance": 0.92,
+        "experimental": 0.95
+      },
+      {
+        "api": "felodipine",
+        "polymer": "HPMCAS-MG",
+        "flory_huggins": 0.82,
+        "hansen_distance": 0.85,
+        "experimental": 0.88
+      },
+      {
+        "api": "ketoconazole",
+        "polymer": "Soluplus",
+        "flory_huggins": 0.87,
+        "hansen_distance": 0.90,
+        "experimental": 0.92
+      },
+      {
+        "api": "carbamazepine",
+        "polymer": "PVP K30",
+        "flory_huggins": 0.65,
+        "hansen_distance": 0.68,
+        "experimental": 0.62
+      },
+      {
+        "api": "carbamazepine",
+        "polymer": "HPMCAS-HG",
+        "flory_huggins": 0.74,
+        "hansen_distance": 0.77,
+        "experimental": 0.79
+      },
+      {
+        "api": "naproxen",
+        "polymer": "Eudragit L100",
+        "flory_huggins": 0.77,
+        "hansen_distance": 0.80,
+        "experimental": 0.82
+      }
+    ]
+  },
+  "stability_correlations": {
+    "description": "Correlations between formulation properties and stability",
+    "stability_factors": [
+      {
+        "factor": "tg_difference",
+        "description": "Difference between formulation Tg and storage temperature (25°C)",
+        "correlation": 0.82,
+        "data_points": [
+          {"value": 20, "stability": 0.52},
+          {"value": 30, "stability": 0.60},
+          {"value": 40, "stability": 0.68},
+          {"value": 50, "stability": 0.75},
+          {"value": 60, "stability": 0.82},
+          {"value": 70, "stability": 0.87},
+          {"value": 80, "stability": 0.91},
+          {"value": 90, "stability": 0.94},
+          {"value": 100, "stability": 0.96}
+        ]
+      },
+      {
+        "factor": "miscibility",
+        "description": "API-polymer miscibility score",
+        "correlation": 0.75,
+        "data_points": [
+          {"value": 0.50, "stability": 0.55},
+          {"value": 0.60, "stability": 0.65},
+          {"value": 0.70, "stability": 0.75},
+          {"value": 0.80, "stability": 0.83},
+          {"value": 0.90, "stability": 0.90},
+          {"value": 0.95, "stability": 0.94}
+        ]
+      },
+      {
+        "factor": "drug_loading",
+        "description": "Drug loading as weight fraction",
+        "correlation": -0.68,
+        "data_points": [
+          {"value": 0.10, "stability": 0.92},
+          {"value": 0.15, "stability": 0.88},
+          {"value": 0.20, "stability": 0.85},
+          {"value": 0.25, "stability": 0.82},
+          {"value": 0.30, "stability": 0.78},
+          {"value": 0.35, "stability": 0.74},
+          {"value": 0.40, "stability": 0.68},
+          {"value": 0.45, "stability": 0.62},
+          {"value": 0.50, "stability": 0.55}
+        ]
+      },
+      {
+        "factor": "hygroscopicity",
+        "description": "Polymer hygroscopicity at 60% RH",
+        "correlation": -0.62,
+        "data_points": [
+          {"value": 0.35, "stability": 0.90},
+          {"value": 0.40, "stability": 0.87},
+          {"value": 0.45, "stability": 0.85},
+          {"value": 0.50, "stability": 0.82},
+          {"value": 0.55, "stability": 0.79},
+          {"value": 0.60, "stability": 0.75},
+          {"value": 0.65, "stability": 0.72},
+          {"value": 0.70, "stability": 0.68},
+          {"value": 0.75, "stability": 0.64},
+          {"value": 0.80, "stability": 0.60},
+          {"value": 0.85, "stability": 0.55}
+        ]
+      },
+      {
+        "factor": "crystallization_tendency",
+        "description": "API crystallization tendency",
+        "correlation": -0.70,
+        "data_points": [
+          {"value": 0.40, "stability": 0.88},
+          {"value": 0.45, "stability": 0.85},
+          {"value": 0.50, "stability": 0.82},
+          {"value": 0.55, "stability": 0.78},
+          {"value": 0.60, "stability": 0.74},
+          {"value": 0.65, "stability": 0.70},
+          {"value": 0.70, "stability": 0.65},
+          {"value": 0.75, "stability": 0.60},
+          {"value": 0.80, "stability": 0.55},
+          {"value": 0.85, "stability": 0.50}
+        ]
+      }
+    ]
+  }
+}
