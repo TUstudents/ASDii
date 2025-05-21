@@ -33,6 +33,8 @@ ASDii is designed for pharmaceutical scientists, formulation experts, and resear
 
 ## Installation
 
+uv sync --all-extras
+
 ```bash
 pip install asdii
 ```

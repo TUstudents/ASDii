@@ -10,17 +10,16 @@ readme = "README.md"
 authors = [
     {name = "ASDii Team", email = "info@asdii.example.com"}
 ]
-license = {text = "MIT"}
+license = {text = "CC-BY-NC-4.0"}
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Topic :: Scientific/Engineering :: Chemistry",
-    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Pharmaceutical Science Apps.",
     "Topic :: Scientific/Engineering :: Physics",
 ]
 keywords = [
@@ -35,12 +34,11 @@ dependencies = [
     "numpy>=1.20.0",
     "scipy>=1.7.0",
     "pandas>=1.3.0",
-    "rdkit>=2023.3.1",
     "scikit-learn>=1.0.0",
     "matplotlib>=3.5.0",
     "seaborn>=0.11.0",
-    "mordred>=1.2.0",
     "pyyaml>=6.0",
+    "mordredcommunity>=2.0.6",
 ]
 
 [project.optional-dependencies]
@@ -72,7 +70,12 @@ ml = [
 
 [tool.setuptools]
 packages = ["asdii"]
-package-data = {"asdii": ["data/*.json", "data/trained_models/*", "reporting/templates/*"]}
+package-dir = {"asdii" = "asdii"}
+package-data = {"asdii" = [
+        "data/*.json",
+        "data/trained_models/*",
+        "reporting/templates/*"
+    ]}
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -82,7 +85,7 @@ python_classes = "Test*"
 
 [tool.black]
 line-length = 88
-target-version = ["py39", "py310", "py311"]
+target-version = ["py39", "py310", "py312"]
 include = '\.pyi?$'
 exclude = '''
 /(
